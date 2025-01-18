@@ -4,7 +4,7 @@ const Sign_Img = () => {
   return (
     <div className="right-data mt-5" style={{width:"100%"}}>
     <div className="sign-img">
-        <img src="./sign.svg"  style={{maxWidth:400}} alt="" />
+        <img src={import.meta.env.BASE_URL+"./sign.svg"}  style={{maxWidth:400}} alt="" />
     </div>
 </div>
   )
